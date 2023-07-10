@@ -7,6 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* banner section */
 .banner-container {
   background-color: rgba(229, 84, 115, 0.1);
   height: 100vh;
@@ -43,4 +44,34 @@ body {
   color: white;
   font-size: 20px;
   border: 0;
+}
+
+/* discount section */
+.discount-container {
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.discount-text {
+  max-width: 500px;
+  padding: 20px;
+}
+.discount-title {
+  color: #272727;
+  font-size: 35px;
+  font-weight: 700;
+}
+.discount-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.discount-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.color {
+  color: #e55473;
 }
