@@ -118,17 +118,18 @@ nav li a:hover {
 }
 .featured-img-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .img-resize {
   height: 280px;
   padding: 15px;
   width: 280px;
-  margin-top: 20px;
+  margin-top: 65px;
 }
 .featured-img {
   height: 316px;
-  border-radius: 150px 150px 0px 0px;
+  border-radius: 185px 185px 0px 0px;
+  padding: 45px;
 }
 .flower1 {
   background: rgba(167, 33, 98, 0.15);
