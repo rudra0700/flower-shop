@@ -5,11 +5,27 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Flower-shop</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<header>
+		<nav>
+			<h1 class="nav-title">Flo<span class="primary-color">Sun</span></h1>
+			<ul class="nav-menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="icon">
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<i class="fa-solid fa-user"></i>
+				<i class="fa-solid fa-cart-shopping"></i>
+			</div>
+		</nav>
+		<!-- banner section -->
 		<div class="banner-container">
 			<div class="banner-text">
 				<h1 class="banner-title">Let's make <br> beautiful flowers a <br> part of your life.</h1>
@@ -26,29 +42,33 @@
 	</header>
 	<main>
 		<!-- featured section -->
-		<div class="feature-container">
-			<div class="feature-text">
-				<h1 class="feature-description">Our Featured Flowers</h1>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when
-					looking at its layout.</p>
-			</div>
-			<div class="flowers">
-				<div class="flower flower1">
-					<img class="to-cut" src="./Flower Asset/pngwing 6.png" alt="">
+		<section>
+			<div class="feature-container">
+				<div class="feature-text">
+					<h1 class="feature-title">Our Featured Flowers</h1>
+					<p class="feature-description">It is a long established fact that a reader will be distracted by the
+						readable content of a page
+						when
+						looking at its layout.</p>
 				</div>
-				<div class="flower flower2">
-					<img class="to-cut" src="./Flower Asset/pngwing 5.png" alt="">
+				<div class="featured-img-container">
+					<div class="featured-img flower1">
+						<img class="img-resize" src="./Flower Asset/pngwing 6.png" alt="">
+					</div>
+					<div class="featured-img flower2">
+						<img class="img-resize" src="./Flower Asset/pngwing 5.png" alt="">
+					</div>
+					<div class="featured-img flower3">
+						<img class="img-resize" src="./Flower Asset/pngwing 7.png" alt="">
+					</div>
 				</div>
-				<div class="flower flower3">
-					<img class="to-cut" src="./Flower Asset/pngwing 7.png" alt="">
+				<div class="curved-border-container">
+					<p class="bottom-border">Pink Flower Tree</p>
+					<p class="bottom-border">Red Flower Tree</p>
+					<p class="bottom-border">Yellow Flower Tree</p>
 				</div>
 			</div>
-			<div class="link-container">
-				<p class="bottom-border">Pink Flower Tree</p>
-				<p class="bottom-border">Pink Flower Tree</p>
-				<p class="bottom-border">Pink Flower Tree</p>
-			</div>
-		</div>
+		</section>
 		<!-- discount section -->
 		<section>
 			<div class="discount-container">
@@ -104,7 +124,8 @@
 	<footer>
 		<div class="footer">
 			<h1><span class="footer-title primary-color">Flower</span>Shop</h1>
-			<p class="footer-description">It is a long established fact that a reader will be distracted by the readable
+			<p class="footer-description">It is a long established fact that a reader will be distracted by the
+				readable
 				content of a page when looking at its layout.</p>
 			<p>@2020-2023, FlowerShop.com. All rights reserved. </p>
 		</div>
