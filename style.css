@@ -7,6 +7,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.color {
+  color: #e55473;
+}
 /* banner section */
 .banner-container {
   background-color: rgba(229, 84, 115, 0.1);
@@ -48,7 +51,7 @@ body {
 
 /* discount section */
 .discount-container {
-  background: rgba(229, 84, 115, 0.05);
+  background: rgb(230, 222, 222);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -56,6 +59,7 @@ body {
 .discount-text {
   max-width: 500px;
   padding: 20px;
+  text-align: center;
 }
 .discount-title {
   color: #272727;
@@ -64,14 +68,35 @@ body {
 }
 .discount-description {
   color: rgba(39, 39, 39, 0.6);
-  text-align: center;
   font-size: 18px;
   font-weight: 400;
+  margin: 20px 0;
 }
-.discount-btn {
+/* instagram section */
+.instagram-container {
+  margin: 0 200px;
+}
+.instagram-text-container {
+  width: 500px;
   text-align: center;
-  margin-top: 20px;
+  margin: auto;
+  margin-bottom: 30px;
 }
-.color {
-  color: #e55473;
+.instagram-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 800;
+}
+.instagram-description {
+  margin: 10px 10px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.instagram-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.instagram-img {
+  width: 320px;
 }
