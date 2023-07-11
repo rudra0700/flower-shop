@@ -63,7 +63,6 @@ nav li a:hover {
   cursor: pointer;
 }
 
-
 /* banner section */
 .banner-container {
   background-color: rgba(229, 84, 115, 0.1);
@@ -148,7 +147,19 @@ nav li a:hover {
 .bottom-border {
   border-bottom: 1px solid black;
 }
-
+.service-container {
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+  padding: 20px;
+}
+.service {
+  text-align: center;
+}
+.service-description {
+  color: rgba(39, 39, 39, 0.8);
+}
 /* discount section */
 .discount-container {
   background: rgb(230, 222, 222);
