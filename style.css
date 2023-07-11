@@ -10,6 +10,14 @@ body {
 .color {
   color: #e55473;
 }
+.primary-btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 18px 40px;
+  color: white;
+  font-size: 20px;
+  border: 0;
+}
 /* banner section */
 .banner-container {
   background-color: rgba(229, 84, 115, 0.1);
@@ -40,14 +48,7 @@ body {
   font-weight: 400;
   margin-bottom: 20px;
 }
-.primary-btn {
-  border-radius: 8px;
-  background: #e55473;
-  padding: 18px 40px;
-  color: white;
-  font-size: 20px;
-  border: 0;
-}
+
 
 /* discount section */
 .discount-container {
@@ -99,4 +100,36 @@ body {
 }
 .instagram-img {
   width: 320px;
+}
+
+/* coupon section */
+.coupon-container {
+  background-image: url("./Flower\ Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  margin: 0 227px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coupon-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.coupon-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 15px;
+}
+input{
+  height: 35px;
+  width: 500px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 13px;
 }
