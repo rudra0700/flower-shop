@@ -49,6 +49,50 @@ body {
   margin-bottom: 20px;
 }
 
+/* feature section */
+.feature-container {
+  margin: 0px 200px;
+}
+.feature-text {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.feature-description {
+  margin: 15px 15px;
+}
+.flowers {
+  display: flex;
+  justify-content: space-around;
+}
+.to-cut {
+  height: 280px;
+  padding: 15px;
+  width: 280px;
+  margin-top: 20px;
+}
+.flower {
+  height: 316px;
+  border-radius: 150px 150px 0px 0px;
+}
+.flower1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower3 {
+  background: rgba(146, 132, 139, 0.15);
+}
+.link-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.bottom-border {
+  border-bottom: 1px solid black;
+}
 
 /* discount section */
 .discount-container {
@@ -125,7 +169,7 @@ body {
   font-weight: 400;
   margin: 15px 15px;
 }
-input{
+input {
   height: 35px;
   width: 500px;
   border: 0;
@@ -134,21 +178,21 @@ input{
   padding: 13px;
 }
 /* footer section */
-footer{
-   background-color: #111010;
-   color: white;
-   height: 50vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+footer {
+  background-color: #111010;
+  color: white;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer{
+.footer {
   text-align: center;
   width: 500px;
 }
-.footer-title{
-font-weight: 800;
+.footer-title {
+  font-weight: 800;
 }
-.footer-description{
+.footer-description {
   margin: 15px 15px;
 }
