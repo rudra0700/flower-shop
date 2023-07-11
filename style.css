@@ -20,6 +20,9 @@ body {
 }
 .primary-btn:hover {
   cursor: pointer;
+  background-color: white;
+  color: #e55473;
+  border: 1px solid #e55473;
 }
 section {
   margin-top: 60px;
